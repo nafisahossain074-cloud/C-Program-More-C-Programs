@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a = 10, b = 0;
+    int sum = a + 5;
+    printf("Sum of a+5: %d\n", sum);
+
+    int arr[3] = {1, 2, 3};
+    int c = arr[5];
+    printf("Accessing out-of-bounds element: %d\n", c);
+    return 0;
+}
