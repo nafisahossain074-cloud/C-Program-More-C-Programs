@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a = 10, b = 0;
+    int arr[3] = {1, 2, 3};
+    int *ptr = NULL;
+
+    printf("%d\n", a / b);
+    printf("%d\n", arr[5]);
+    printf("%d\n", *ptr);
+
+    return 0;
+}
